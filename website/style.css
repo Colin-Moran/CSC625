@@ -29,10 +29,11 @@ body {
 }
 
 .buttonArea {
-	margin: 60px;
-	align-content: center;
-	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
 	display: inline-block;
+	width: 100%
 }
 
 a {
@@ -42,5 +43,20 @@ a {
 	height: 40px;
 }
 
+form {
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+
+.boxButtonBody {
+	text-align: center;
+	justify-content: center;
+}
 
 
+.center {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
